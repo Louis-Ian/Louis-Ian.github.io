@@ -1,2 +1,4 @@
 # Louis-Ian.github.io
-🇺🇸 My website portfolio
+My website portfolio
+
+Written using Flutter
