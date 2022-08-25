@@ -33,7 +33,7 @@ jobs:
           git config --global user.email louisiangt@gmail.com
           git config --global user.name Louis-Ian
           git status
-          git remote add origin https://${{secrets.token}}@github.com/Louis-Ian/Louis-Ian.github.io.git
+          git remote add origin https://${{secrets.ghp_token}}@github.com/Louis-Ian/Louis-Ian.github.io.git
           git checkout -b gh-pages
           git add --all
           git commit -m "new published version"
